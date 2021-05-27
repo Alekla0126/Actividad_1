@@ -1,4 +1,4 @@
-function onSignIn(googleUser)
+function getUser(googleUser)
 {
     var id_token = googleUser.getAuthResponse().id_token;
     var xhr = new XMLHttpRequest();
@@ -11,7 +11,7 @@ function onSignIn(googleUser)
     xhr.send('idtoken=' + id_token);
 }
 
-function getInfo(googleUser)
+function onSignIn(googleUser)
 {
     var profile = googleUser.getBasicProfile();
     console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
