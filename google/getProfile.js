@@ -22,5 +22,4 @@ function onSignIn(googleUser)
     console.log('Family Name: ' + profile.getFamilyName());
     console.log('Email: ' + profile.getEmail());
     console.log('Image URL: ' + profile.getImageUrl());
-    getUser(googleUser);
 }
