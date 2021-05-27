@@ -2,7 +2,7 @@ function getUser(googleUser)
 {
     var id_token = googleUser.getAuthResponse().id_token;
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://alekla.com/homeoffix/apitokensignin.php');
+    xhr.open('POST', 'https://formate.app/api/apitokensignin.php');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onload = function ()
     {
