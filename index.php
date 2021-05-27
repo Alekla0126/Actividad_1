@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<script src="https://apis.google.com/js/platform.js" async defer></script>
-		<script language="JavaScript" type="text/javascript" src="/google/getProfile.js"></script>
+		<script language="JavaScript" type="text/javascript" src="/homeoffix/google/getProfile.js"></script>
 	</head>
 	<meta name="google-signin-client_id" content="559809341234-elmqbps1vrlkuirmv2muvcsl51vigvf4.apps.googleusercontent.com">
 	<head>
