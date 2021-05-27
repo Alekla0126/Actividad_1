@@ -7,18 +7,16 @@
 	$CLIENT_ID = '559809341234-elmqbps1vrlkuirmv2muvcsl51vigvf4.apps.googleusercontent.com';
 	// Specify the CLIENT_ID of the app that accesses the backend
 	$client = new Google_Client(['client_id' => $CLIENT_ID]);
-	$payload = 'https://www.googleapis.com/oauth2/v3/tokeninfo?id_token='.$id_token;
-	$json = file_get_contents($payload);
-	$userInfoArray = json_decode($json, TRUE);
-	$googleEmail = $userInfoArray['email'];
-	$google_id = $userInfoArray['sub'];
-
-	if ($googleEmail)
+	$payload = $client->verifyIdToken($this->input->post('id_token'));
+	if ($payload)
 	{
-		echo "validated".$googleEmail;
+		$userid = $payload['sub'];
+		// If request specified a G Suite domain:
+		echo 'Valid account';
+		$domain = $payload['hd'];
 	}
 	else
 	{
-		echo "inValidate";
+		echo 'Invalid' ;
 	}
 
