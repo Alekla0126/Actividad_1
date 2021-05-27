@@ -21,8 +21,9 @@
 	}
 ?>
 
-<html>
+<html lang="">
 	<head>
-		<h>Hola</h>
-	</head>
+        <title></title>
+        <h2>Hola</h2>
+    </head>
 </html>
