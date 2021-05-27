@@ -1,6 +1,6 @@
 <? php
 
-	require_once 'google/vendor/autoload.php';
+	require_once 'vendor/autoload.php';
 
 	// Get $id_token via HTTPS POST.
 	// Specify the CLIENT_ID of the app that accesses the backend
