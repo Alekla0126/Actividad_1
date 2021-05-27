@@ -4,8 +4,9 @@
 
 	// Get $id_token via HTTPS POST.
 
-	$CLIENT_ID = '559809341234-elmqbps1vrlkuirmv2muvcsl51vigvf4.apps.googleusercontent.com';
-	$client = new Google_Client(['client_id' => $CLIENT_ID]);  // Specify the CLIENT_ID of the app that accesses the backend
+	$CLIENT_ID = "559809341234-elmqbps1vrlkuirmv2muvcsl51vigvf4.apps.googleusercontent.com";
+	// Specify the CLIENT_ID of the app that accesses the backend
+	$client = new Google_Client(['client_id' => $CLIENT_ID]);
 	$payload = $client->verifyIdToken($id_token);
 	if ($payload)
 	{
