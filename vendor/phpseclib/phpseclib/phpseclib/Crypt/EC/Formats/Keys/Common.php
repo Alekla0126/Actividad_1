@@ -362,7 +362,7 @@ trait Common
                     ['namedCurve' => $name] :
                     ASN1::encodeDER(['namedCurve' => $name], Maps\ECParameters::MAP);
             }
-            foreach (new \DirectoryIterator(__DIR__ . '/../../Curves/') as $file) {
+            foreach (new \DirectoryIterator(__DIR__.'/../../Curves/') as $file) {
                 if ($file->getExtension() != 'php') {
                     continue;
                 }

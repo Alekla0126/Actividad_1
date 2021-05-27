@@ -7,12 +7,12 @@ namespace Composer\Autoload;
 class ComposerStaticInitdfde48215ae9e7ed14f40f162f1020b0
 {
     public static $files = array (
-        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
-        'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
-        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        'a8d3953fd9959404dd22d3dfcd0a79f0' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__.'/vendor',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__.'/vendor',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__.'/vendor',
+        'decc78cc4436b1292c6c0d151b19445c' => __DIR__.'/vendor',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__.'/vendor',
+        'a8d3953fd9959404dd22d3dfcd0a79f0' => __DIR__.'/vendor',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -49,55 +49,55 @@ class ComposerStaticInitdfde48215ae9e7ed14f40f162f1020b0
     public static $prefixDirsPsr4 = array (
         'phpseclib3\\' => 
         array (
-            0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
+            0 => __DIR__.'/vendor',
         ),
         'Psr\\Log\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+            0 => __DIR__.'/vendor',
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__.'/vendor',
         ),
         'Psr\\Http\\Client\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-client/src',
+            0 => __DIR__.'/vendor',
         ),
         'Psr\\Cache\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/cache/src',
+            0 => __DIR__.'/vendor',
         ),
         'ParagonIE\\ConstantTime\\' => 
         array (
-            0 => __DIR__ . '/..' . '/paragonie/constant_time_encoding/src',
+            0 => __DIR__.'/vendor',
         ),
         'Monolog\\' => 
         array (
-            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+            0 => __DIR__.'/vendor',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+            0 => __DIR__.'/vendor',
         ),
         'GuzzleHttp\\Promise\\' => 
         array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+            0 => __DIR__.'/vendor',
         ),
         'GuzzleHttp\\' => 
         array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+            0 => __DIR__.'/vendor',
         ),
         'Google\\Auth\\' => 
         array (
-            0 => __DIR__ . '/..' . '/google/auth/src',
+            0 => __DIR__.'/vendor',
         ),
         'Google\\' => 
         array (
-            0 => __DIR__ . '/..' . '/google/apiclient/src',
+            0 => __DIR__.'/vendor',
         ),
         'Firebase\\JWT\\' => 
         array (
-            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+            0 => __DIR__.'/vendor',
         ),
     );
 
@@ -106,34 +106,34 @@ class ComposerStaticInitdfde48215ae9e7ed14f40f162f1020b0
         array (
             'Google_Service_' => 
             array (
-                0 => __DIR__ . '/..' . '/google/apiclient-services/src',
+                0 => __DIR__.'/vendor',
             ),
         ),
     );
 
     public static $classMap = array (
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Google_AccessToken_Revoke' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_AccessToken_Verify' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_AuthHandler_AuthHandlerFactory' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_AuthHandler_Guzzle5AuthHandler' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_AuthHandler_Guzzle6AuthHandler' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_AuthHandler_Guzzle7AuthHandler' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Client' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Collection' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Exception' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Http_Batch' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Http_MediaFileUpload' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Http_REST' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Model' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Service' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Service_Exception' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Service_Resource' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Task_Composer' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Task_Exception' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Task_Retryable' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Task_Runner' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Google_Utils_UriTemplate' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
+        'Composer\\InstalledVersions' => __DIR__.'/vendor',
+        'Google_AccessToken_Revoke' => __DIR__.'/vendor',
+        'Google_AccessToken_Verify' => __DIR__.'/vendor',
+        'Google_AuthHandler_AuthHandlerFactory' => __DIR__.'/vendor',
+        'Google_AuthHandler_Guzzle5AuthHandler' => __DIR__.'/vendor',
+        'Google_AuthHandler_Guzzle6AuthHandler' => __DIR__.'/vendor',
+        'Google_AuthHandler_Guzzle7AuthHandler' => __DIR__.'/vendor',
+        'Google_Client' => __DIR__.'/vendor',
+        'Google_Collection' => __DIR__.'/vendor',
+        'Google_Exception' => __DIR__.'/vendor',
+        'Google_Http_Batch' => __DIR__.'/vendor',
+        'Google_Http_MediaFileUpload' => __DIR__.'/vendor',
+        'Google_Http_REST' => __DIR__.'/vendor',
+        'Google_Model' => __DIR__.'/vendor',
+        'Google_Service' => __DIR__.'/vendor',
+        'Google_Service_Exception' => __DIR__.'/vendor',
+        'Google_Service_Resource' => __DIR__.'/vendor',
+        'Google_Task_Composer' => __DIR__.'/vendor',
+        'Google_Task_Exception' => __DIR__.'/vendor',
+        'Google_Task_Retryable' => __DIR__.'/vendor',
+        'Google_Task_Runner' => __DIR__.'/vendor',
+        'Google_Utils_UriTemplate' => __DIR__.'/vendor',
     );
 
     public static function getInitializer(ClassLoader $loader)
