@@ -19,4 +19,10 @@
 	{
 		echo 'Invalid' ;
 	}
+?>
 
+<html>
+	<head>
+		<h>Hola</h>
+	</head>
+</html>
