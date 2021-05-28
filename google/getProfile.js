@@ -2,7 +2,7 @@ function getUser(googleUser)
 {
     var id_token = googleUser.getAuthResponse().id_token;
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://alekla.com/homeoffix/google/tokensignin');
+    xhr.open('POST', 'https://alekla.com/homeoffix/api/tokensignin');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onload = function ()
     {
